@@ -1,0 +1,30 @@
+{
+  "name": "swiftbetaone",
+  "version": "1.0.0",
+  "description": "Swift Beta One Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/structafrica/sb-one.git"
+  },
+  "author": "Struct Africa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/structafrica/sb-one/issues"
+  },
+  "homepage": "https://github.com/structafrica/sb-one#readme",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.2",
+    "morgan": "^1.9.1",
+    "randomstring": "^1.1.5",
+    "socket.io": "^2.1.1"
+  }
+}

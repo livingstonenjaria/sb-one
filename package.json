@@ -2,9 +2,9 @@
   "name": "swiftbetaone",
   "version": "1.0.0",
   "description": "Swift Beta One Backend",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
